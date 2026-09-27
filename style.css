@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+#header{
+    height: 100vh;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#header .header-content{
+text-align: center;
+padding: 20%;
+}
+#header .header-content span{
+    color: white;
+    font-size: 25px;
+}
+#header .header-content h1{
+    color: white;
+    font-size: 60px;
+}
+#header .header-content p{
+    color: white;
+    font-size: 27px;
+}
+#header .header-content .btn{
+color: white;
+padding: 2%;
+border-radius: 10%;
+}
+.btn1{
+    background-color: #8E7754;
+    border:#8E7754 solid 2px ;
+}
+.btn2{
+    background-color: transparent;
+    border-color:white ;
+}
+.section1{
+   
+    background-color: #FFFFFF;
+}
+.container{
+    padding: 4%;
+}
+.section1 .container .div1-sec1{
+    width: 40%;
+    display:inline-block ;
+}
+.section1 .container .div1-sec1 img{
+    width: 100%;
+    display:inline-block ;
+}
+.section1 .container .div2-sec1{
+    display:inline-block ;
+    width: 40%;
+    vertical-align: top;
+    padding-left: 4%;
+}
+.div2-sec1 p{
+    color: grey;
+    font-size: 20px;
+}
+.who p{
+    font-size:15px ;
+}
+.img-icon img{
+    width: 11%;
+    border: #E2E2E2 solid 2px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+.img-icon p,.img-contact p{
+    display: inline-block;
+    vertical-align:top;
+}
+.location, .contact-us{
+    background-color: #F8F8F8;
+}
+.location .container .div1-loc,.div2-loc{
+    width: 40%;
+    display: inline-block;
+}
+.div1-loc p,.cont-baking p, .card p, .div-contact p{
+    color: grey;
+    font-size: 18px;
+}
+.div1-loc{
+    vertical-align: top;
+}
+.div2-loc{
+    padding-left: 15%;
+}
+.div2-loc img{
+    width: 100%; 
+}
+.cont-baking{
+    text-align: center;
+}
+.card{
+    width: 30.33%;
+    text-align: center;
+    float: left;
+}
+.card img{
+    width: 90%;
+}
+.card span{
+    font-size: 20px;
+}
+.clear-fix{
+    clear: both;
+}
+.div-contact{
+    width: 40%;
+    float: left;
+}
+.div-contact img{
+    width: 11%;
+}
+.about{
+    background-color: #403D38;
+}
+.about .div-about{
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+}
+.about h3{
+    color: white;
+}
+.about p{
+    color: #969696;
+    font-size: 15px;
+}
+.ques img{
+    width: 10%;
+}
+.ques p{
+    display: inline-block;
+    vertical-align: top;
+}
+.ques a{
+    color:#969696;
+    text-decoration: none;
+}
+.about hr{
+    border-color: #969696;
+}
+footer{
+    background-color: #353330;
+}
+footer .container .div-foot{
+    text-align: center;
+}
+footer .container .div-foot span{
+    display: block;
+    color:#969696;
+    padding-top: 3%;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+.foot-img{
+    width: 3%;
+    display: inline-block;
+    border:#484540 solid 2px;
+    border-radius: 50%;
+    background-color: #484540;
+}
